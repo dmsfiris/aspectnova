@@ -25,7 +25,7 @@ jobs:
 
       # Optional: verify Expo project health (runs without login)
       - name: Expo doctor
-        run: npx expo doctor --fix
+        run: npx expo-doctor --fix
 
       - name: Lint
         run: npm run lint
