@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Optional: verify Expo project health (runs without login)
+      - name: Expo doctor
+        run: npx expo doctor --fix
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run typecheck
+
+      # Optional: run tests (only if you have a test script)
+      # - name: Test
+      #   run: npm test -- --ci
+
+      # Optional: build web bundle to catch bundling errors
+      # (uncomment if you want strict web build verification)
+      # - name: Build web
+      #   run: npx expo export --platform web

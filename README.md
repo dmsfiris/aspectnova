@@ -1,6 +1,6 @@
 # AspectNova — A Universal Expo + React Native Boilerplate for Content, Media, and Reading Apps
 
-[![Build CI](https://github.com/dmsfiris/aspectnova/actions/workflows/ci.yml/badge.svg)](https://github.com/dmsfiris/aspectnova/actions/workflows/ci.yml)
+[![CI](https://github.com/dmsfiris/aspectnova/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dmsfiris/aspectnova/actions/workflows/ci.yml)
 ![Expo SDK](https://img.shields.io/badge/Expo%20SDK-54-4630EB)
 ![React Native](https://img.shields.io/badge/React%20Native-cross--platform-61dafb)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6)
