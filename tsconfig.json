@@ -1,0 +1,39 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    "resolveJsonModule": true,
+    "allowJs": false,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@app/*": ["app/*"],
+      "@api": ["src/api/index.ts"],
+      "@api/*": ["src/api/*"]
+    },
+
+    "types": ["expo", "react", "react-native"],
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "useUnknownInCatchVariables": true,
+    "forceConsistentCasingInFileNames": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["app", "src", "app.config.ts", "expo-env.d.ts", ".expo/types/**/*.ts"],
+  "exclude": ["node_modules", "android", "ios", ".expo"]
+}

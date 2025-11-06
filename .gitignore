@@ -1,0 +1,64 @@
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+.eas/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro / caches
+.metro-health-check*
+.cache/
+**/.cache/
+
+# Native (managed workflow)
+# If you use 'expo prebuild' and want to keep native code in Git, remove these lines.
+ios/
+android/
+
+# Android/iOS artifacts (defense in depth)
+*.keystore
+*.jks
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.orig.*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.log*
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local env files (keep real secrets out of Git)
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Editors / IDEs
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# Examples / scaffolding
+app-example
+
+# Optional: coverage & tooling outputs
+coverage/
+.nyc_output/
+.turbo/

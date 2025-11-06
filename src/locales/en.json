@@ -1,0 +1,41 @@
+{
+  "appName": "FreeBookApp",
+
+  "tabs": {
+    "home": "Home",
+    "library": "Library"
+  },
+
+  "common": {
+    "search": "Search"
+  },
+
+  "auth": {
+    "welcome": "Welcome to {{app}}",
+    "signIn": "Sign in",
+    "welcomeBack": "Welcome back. Please sign in to continue.",
+    "signInForm": "Sign-in form",
+    "email": "Email",
+    "password": "Password",
+    "signInCta": "Sign In",
+    "loginFailed": "Login failed"
+  },
+
+  "library": {
+    "title": "Your Library",
+    "searchPlaceholder": "Search titles…",
+    "search": "Search",
+    "pages_one": "{{count}} page",
+    "pages_other": "{{count}} pages",
+    "empty": "No books found"
+  },
+
+  "reader": {
+    "back": "Back",
+    "prev": "Prev",
+    "next": "Next",
+    "pageOf": "Page {{page}} / {{total}}",
+    "readThisPage": "Read this page",
+    "stop": "Stop"
+  }
+}

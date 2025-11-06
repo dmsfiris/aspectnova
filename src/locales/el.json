@@ -1,0 +1,41 @@
+{
+  "appName": "FreeBookApp",
+
+  "tabs": {
+    "home": "Αρχική",
+    "library": "Βιβλιοθήκη"
+  },
+
+  "common": {
+    "search": "Αναζήτηση"
+  },
+
+  "auth": {
+    "welcome": "Καλώς ήρθατε στο {{app}}",
+    "signIn": "Σύνδεση",
+    "welcomeBack": "Καλώς επιστρέψατε! Παρακαλούμε συνδεθείτε για να συνεχίσετε.",
+    "signInForm": "Φόρμα σύνδεσης",
+    "email": "Email",
+    "password": "Κωδικός",
+    "signInCta": "Σύνδεση",
+    "loginFailed": "Η σύνδεση απέτυχε"
+  },
+
+  "library": {
+    "title": "Η Βιβλιοθήκη σας",
+    "searchPlaceholder": "Αναζήτηση τίτλων…",
+    "search": "Αναζήτηση",
+    "pages_one": "{{count}} σελίδα",
+    "pages_other": "{{count}} σελίδες",
+    "empty": "Δεν βρέθηκαν βιβλία"
+  },
+
+  "reader": {
+    "back": "Πίσω",
+    "prev": "Προηγούμενο",
+    "next": "Επόμενο",
+    "pageOf": "Σελίδα {{page}} / {{total}}",
+    "readThisPage": "Ανάγνωση αυτής της σελίδας",
+    "stop": "Διακοπή"
+  }
+}
