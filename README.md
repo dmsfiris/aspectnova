@@ -1,5 +1,18 @@
 # AspectNova — A Universal Expo + React Native Boilerplate for Content, Media, and Reading Apps
 
+[![Build CI](https://github.com/dmsfiris/aspectnova/actions/workflows/ci.yml/badge.svg)](https://github.com/dmsfiris/aspectnova/actions/workflows/ci.yml)
+![Expo SDK](https://img.shields.io/badge/Expo%20SDK-54-4630EB)
+![React Native](https://img.shields.io/badge/React%20Native-cross--platform-61dafb)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6)
+![Node](https://img.shields.io/badge/Node-%E2%89%A5%2020-339933)
+![Platforms](https://img.shields.io/badge/Platforms-iOS%20%7C%20Android%20%7C%20Web-informational)
+![Code Style](https://img.shields.io/badge/Code%20Style-Prettier-1a2b34)
+![Linting](https://img.shields.io/badge/Lint-ESLint-4B32C3)
+![Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-ffa500.svg)
+![License](https://img.shields.io/badge/License-Apache--2.0-success)
+[![Last Commit](https://img.shields.io/github/last-commit/dmsfiris/aspectnova)](https://github.com/dmsfiris/aspectnova/commits)
+[![Open Issues](https://img.shields.io/github/issues/dmsfiris/aspectnova)](https://github.com/dmsfiris/aspectnova/issues)
+
 **AspectNova Base** is a modern, production-ready **Expo + React Native boilerplate** built with **TypeScript**, **Expo Router**, **Zustand**, and **React Query**.  
 It serves as a **universal content platform foundation** for building reading, media, or document-based apps — everything from a **book library**, **digital magazine**, or **article reader**, to a **documentation viewer**, **education app**, or **company knowledge base**.
 
@@ -248,12 +261,16 @@ Each configuration shares the same code foundation—only data sources, branding
 
 ## Credits
 
-Developed with ❤️ by **AspectSoft**  
-Built with **Expo Router**, **React Native**, and **TypeScript**  
-UI/UX inspired by clean, minimalist reading platforms  
+Created and maintained by [**AspectSoft**](https://aspectsoft.gr/en).  
+Built with **Expo Router**, **React Native**, **TypeScript**, and **Zustand**.  
+
+Special thanks to the open-source community for the frameworks and tools that made **AspectNova** possible.
 
 ---
 
 ## License
 
-Licensed under the **Apache License 2.0** — see the LICENSE and NOTICE files for details.
+Licensed under the **Apache License, Version 2.0**.  
+See the [LICENSE](./LICENSE) and [NOTICE](./NOTICE) files for details.
+
+© 2025 [AspectSoft](https://aspectsoft.gr/en). All rights reserved.
