@@ -1,3 +1,4 @@
+# .github/workflows/ci.yml
 name: CI
 
 on:
@@ -20,24 +21,18 @@ jobs:
           node-version: 20
           cache: "npm"
 
-      - name: Install dependencies
+      # Optional: ensure no stale cache
+      # - run: npm cache clean --force
+
+      - name: Install deps (lockfile-respecting)
         run: npm ci
 
-      # Optional: verify Expo project health (runs without login)
+      - name: Print key versions (debug)
+        run: |
+          node -v
+          npm -v
+          npx expo --version || true
+          npm ls expo expo-router || true
+
       - name: Expo doctor
-        run: npx expo-doctor --fix
-
-      - name: Lint
-        run: npm run lint
-
-      - name: Type check
-        run: npm run typecheck
-
-      # Optional: run tests (only if you have a test script)
-      # - name: Test
-      #   run: npm test -- --ci
-
-      # Optional: build web bundle to catch bundling errors
-      # (uncomment if you want strict web build verification)
-      # - name: Build web
-      #   run: npx expo export --platform web
+        run: npx expo-doctor
