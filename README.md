@@ -13,7 +13,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/dmsfiris/aspectnova)](https://github.com/dmsfiris/aspectnova/commits)
 [![Open Issues](https://img.shields.io/github/issues/dmsfiris/aspectnova)](https://github.com/dmsfiris/aspectnova/issues)
 
-**AspectNova Base** is a modern, production-ready **Expo + React Native boilerplate** built with **TypeScript**, **Expo Router**, **Zustand**, and **React Query**.  
+**AspectNova** is a modern, production-ready **Expo + React Native boilerplate** built with **TypeScript**, **Expo Router**, **Zustand**, and **React Query**.  
 It serves as a **universal content platform foundation** for building reading, media, or document-based apps — everything from a **book library**, **digital magazine**, or **article reader**, to a **documentation viewer**, **education app**, or **company knowledge base**.
 
 ---
@@ -32,7 +32,7 @@ Designed for teams that require a robust, ready-to-extend foundation rather than
 
 ## Use Cases
 
-**AspectNova Base** can be adapted into a variety of professional-grade apps:
+**AspectNova** can be adapted into a variety of professional-grade apps:
 
 | Category | Example Use Case | Description |
 |-----------|------------------|--------------|

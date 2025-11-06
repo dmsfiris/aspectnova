@@ -43,8 +43,6 @@ pnpm-debug.log*
 Thumbs.db
 
 # Local env files (keep real secrets out of Git)
-.env
-.env.local
 .env.*.local
 
 # TypeScript
@@ -52,7 +50,6 @@ Thumbs.db
 
 # Editors / IDEs
 .idea/
-.vscode/
 !.vscode/extensions.json
 
 # Examples / scaffolding
@@ -62,3 +59,4 @@ app-example
 coverage/
 .nyc_output/
 .turbo/
+config.bat
